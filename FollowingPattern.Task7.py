@@ -1,0 +1,11 @@
+n=5
+i=1
+number=0
+while n>=i:
+    number+=1
+    j=1
+    while j<=n:
+        print(number,end=" ")
+        j+=1
+    print(end="\n")
+    n-=1
